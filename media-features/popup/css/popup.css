@@ -1,14 +1,19 @@
-.popup__close {
-  width: 28px;
-  height: 20px;
-  font-size: 20px;
-
-  position: absolute;
-  top: -30px;
-  right: 0;  
+@media screen and (min-width: 480px) {
+  .popup__close {
+    width: 1.4em;
+    height: 1em;
+    font-size: 20px;
+    position: absolute;
+    top: -1.5em;
+    right: 0;
+  }
+  .popup__close:before, .popup__close:after {
+    width: 1.4em;
+    height: 0.2em;
+  }
 }
-
-.popup__close:before, .popup__close:after {
-  width: 28px;
-  height: 4px;
+@media screen and (max-width: 481px) {
+  .popup__close {
+    font-size: 15px;
+  }
 }
