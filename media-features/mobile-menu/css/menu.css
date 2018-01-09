@@ -1,0 +1,16 @@
+@media screen and (min-width: 640px) {
+  .menu__button {
+    display: none;
+  }
+  .title {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 641px) {
+  .menu__list {
+    display: none;
+  }
+  .title {
+    font-size: 24px;
+  }
+}
