@@ -1,4 +1,3 @@
-@media screen and (min-width: 480px) {
   .popup__close {
     width: 1.4em;
     height: 1em;
@@ -11,7 +10,7 @@
     width: 1.4em;
     height: 0.2em;
   }
-}
+
 @media screen and (max-width: 481px) {
   .popup__close {
     font-size: 15px;
